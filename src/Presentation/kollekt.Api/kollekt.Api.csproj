@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\kollekt.Application.Contracts\kollekt.Application.Contracts.csproj" />
-    <ProjectReference Include="..\kollekt.Infrastructure.Contracts\kollekt.Infrastructure.Contracts.csproj" />
-    <ProjectReference Include="..\kollekt.Common\kollekt.Common.csproj" />
+    <ProjectReference Include="..\Application\kollekt.Application.Contracts\kollekt.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Infrastructure\kollekt.Infrastructure.Contracts\kollekt.Infrastructure.Contracts.csproj" />
+    <ProjectReference Include="..\_Common\kollekt.Common\kollekt.Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\kollekt.Infrastructure.Contracts\kollekt.Infrastructure.Contracts.csproj" />
-    <ProjectReference Include="..\kollekt.Common\kollekt.Common.csproj" />
+    <ProjectReference Include="..\_Common\kollekt.Common\kollekt.Common.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

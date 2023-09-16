@@ -5,27 +5,27 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E79168F0-F8B1-4A46-A624-FA5E1A95B67A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Api", "src\kollekt.Api\kollekt.Api.csproj", "{451DED64-7163-418C-A948-0FD72F120BF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Api", "src\Presentation\kollekt.Api\kollekt.Api.csproj", "{451DED64-7163-418C-A948-0FD72F120BF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Common", "_Common", "{7B4047F5-1424-49E0-9266-0BA7BCF0D0BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Common", "src\kollekt.Common\kollekt.Common.csproj", "{7313346C-910D-4F17-B2AB-51FA0BF3809A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Common", "src\_Common\kollekt.Common\kollekt.Common.csproj", "{7313346C-910D-4F17-B2AB-51FA0BF3809A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{43FC17A4-508D-421D-BD7C-F9A843435745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Infrastructure", "src\kollekt.Infrastructure\kollekt.Infrastructure.csproj", "{551138FB-F3BE-45B3-9DCB-00E53A4FA48B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Infrastructure", "src\Infrastructure\kollekt.Infrastructure\kollekt.Infrastructure.csproj", "{551138FB-F3BE-45B3-9DCB-00E53A4FA48B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Infrastructure.Contracts", "src\kollekt.Infrastructure.Contracts\kollekt.Infrastructure.Contracts.csproj", "{1201C7B9-6000-4586-BA35-B6107C462007}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Infrastructure.Contracts", "src\Infrastructure\kollekt.Infrastructure.Contracts\kollekt.Infrastructure.Contracts.csproj", "{1201C7B9-6000-4586-BA35-B6107C462007}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8424EA63-2C7E-4EA3-AB39-2EE2E0F74B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Application.Contracts", "src\kollekt.Application.Contracts\kollekt.Application.Contracts.csproj", "{38F98A7B-FD9D-4CDD-AE3D-3DE2E47E68EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Application.Contracts", "src\Application\kollekt.Application.Contracts\kollekt.Application.Contracts.csproj", "{38F98A7B-FD9D-4CDD-AE3D-3DE2E47E68EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Application", "src\kollekt.Application\kollekt.Application.csproj", "{F554F646-8426-470D-BEEB-BDDA22115C46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Application", "src\Application\kollekt.Application\kollekt.Application.csproj", "{F554F646-8426-470D-BEEB-BDDA22115C46}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D5F9E605-1A7D-4A5A-8860-9AD13C3C47DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Domain", "src\kollekt.Domain\kollekt.Domain.csproj", "{B1148109-D0F9-4D24-B2FC-48B77862AA1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kollekt.Domain", "src\Domain\kollekt.Domain\kollekt.Domain.csproj", "{B1148109-D0F9-4D24-B2FC-48B77862AA1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 namespace kollekt.Contracts.Authentication
 {
-    public record AuthenticationResponse(       
+    public record RegisterRequest(       
         string FirstName, 
         string LastName, 
         string Email, 

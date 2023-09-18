@@ -1,6 +1,6 @@
 namespace kollekt.Contracts.Authentication
 {
-    public record LoginReques(
+    public record LoginRequest(
         string Email, 
         string Password);    
 }

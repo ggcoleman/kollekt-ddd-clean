@@ -6,15 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  <ItemGroup>    
+    <ProjectReference Include="..\kollekt.Contracts\kollekt.Contracts.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Application\kollekt.Application.Contracts\kollekt.Application.Contracts.csproj" />
-    <ProjectReference Include="..\Infrastructure\kollekt.Infrastructure.Contracts\kollekt.Infrastructure.Contracts.csproj" />
-    <ProjectReference Include="..\_Common\kollekt.Common\kollekt.Common.csproj" />
-  </ItemGroup>
-
 </Project>

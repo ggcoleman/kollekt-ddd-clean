@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+  <ProjectReference Include="..\Application\kollekt.Application.Contracts\kollekt.Application.Contracts.csproj" />
     <ProjectReference Include="..\Infrastructure\kollekt.Infrastructure.Contracts\kollekt.Infrastructure.Contracts.csproj" />
     <ProjectReference Include="..\_Common\kollekt.Common\kollekt.Common.csproj" />
   </ItemGroup>

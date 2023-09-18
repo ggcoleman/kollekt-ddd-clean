@@ -1,6 +1,8 @@
 # kollekt-ddd-clean
 Project to showcase clean architecture and DDD
 
+[![.NET](https://github.com/ggcoleman/kollekt-ddd-clean/actions/workflows/ci-build.yml/badge.svg)](https://github.com/ggcoleman/kollekt-ddd-clean/actions/workflows/ci-build.yml)
+
 High Level Dependency:
 
 Okay Project Dependencies:
